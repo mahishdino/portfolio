@@ -13,8 +13,8 @@ function About() {
                     ABOUT <span>Me</span>
                 </h2>
                 <h3>Frontend Developer</h3>
-                <p>Hello! I'm Sadha Shivam, a dedicated React.js Developer with 2 years of hands-on experience in crafting dynamic and responsive web applications. Passionate about leveraging cutting-edge technologies and best practices to deliver exceptional user experiences, I specialize in front-end development using React.js and a wide range of complementary tools and libraries.</p>
-                <p>Skills : <span>HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Node Js, express js, Mongodb, React.js, Redux, Redux Toolkit, Material UI, Git, GitLab, Jest, and Enzyme unit testing</span></p>
+                <p>Hello! I'm Dhondi Rathan Raj, a dedicated React Native Developer with 4 years of hands-on experience in crafting dynamic and responsive Mobile App applications. Passionate about leveraging cutting-edge technologies and best practices to deliver exceptional user experiences, I specialize in front-end development using React.js and a wide range of complementary tools and libraries.</p>
+                <p>Skills : <span>HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Node Js,Nest Js,Qwik Js, React Native, Kotlin,Graph ql </span></p>
                 <a href="#" className="btn">Read More</a>
             </div>
         </section>
