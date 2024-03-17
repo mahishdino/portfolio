@@ -1,7 +1,8 @@
 import React from 'react';
-import VOD from "../Images/VOD.png";
-import JOB from "../Images/JOB.png";
-import LMS from "../Images/LMS.png";
+import Electrical from '../Images/Electrical.jpeg'
+import ERP from '../Images/ERP.jpeg'
+import Ecommerece from '../Images/QW.jpeg'
+
 
 function Projects() {
   return (
@@ -12,28 +13,38 @@ function Projects() {
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src={VOD} alt="" />
+                <img src={Electrical} alt="" />
                 <div class="portfolio-layer">
-                    <h4>Local VOD (Saudi)</h4>
-                    <p>The Local VOD Project is a video-on-demand platform inspired by Netflix, offering a wide range of content including movies, TV shows, and podcasts. With a sleek interface and seamless streaming experience, users can discover and enjoy their favorite shows or tune in to podcasts on the go.</p>
+                    <h4>Electrical AI App</h4>
+                    <p> I spearheaded a project developing an Al-powered module
+                        for imaging electrical infrastructure, using Qwik.js, and Kotlin.
+                        The module features offline capability, ensuring seamless data
+                        handling in fluctuating connectivity, highlighting my proficiency
+                        in creating efficient, resilient software solutions.</p>
                     <i class="fa-solid fa-up-right-form-square"></i>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src={JOB} alt="" />
+                <img src={ERP} alt="" />
                 <div class="portfolio-layer">
-                    <h4>E-Job Portal</h4>
-                    <p>The E-Job Portal facilitates seamless connections between job seekers and companies through curated listings, enabling easy applications. With its intuitive user interface, the platform ensures a smooth experience for both employers and job seekers alike.</p>
+                    <h4>ERP AI APP</h4>
+                    <p>Developed multiple mobile applications with multiple, modules
+                        namely Examinations, Payments, Academics, Student & Parent
+                        Login, Faculty Login, Trasport, Digital Content, Library, Visitor
+                        Management and many more.</p>
                     <i class="fa-solid fa-up-right-form-square"></i>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src={LMS} alt="" />
+                <img src={Ecommerece} alt="" />
                 <div class="portfolio-layer">
-                    <h4>LMS Project</h4>
-                    <p>The LMS Project is a versatile learning management system with tailored panels for administrators, managers, team leads, and students. Users access educational content, track progress, and collaborate seamlessly with course management and assessment tools.</p>
+                    <h4>E-Commerce App</h4>
+                    <p>Qwiksto is India's first B2B cum B2C Reselling Business App, where
+                        you can find top-quality products at the lowest prices and sell
+                        them in your personal circle. You can also offer "Factory deals" to
+                        people who want to start their own online business.</p>
                     <i class="fa-solid fa-up-right-form-square"></i>
                 </div>
             </div>

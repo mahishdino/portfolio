@@ -15,7 +15,7 @@ function Header() {
 
     return (
         <header className="header">
-            <a href="#" className="logo">SADHA SHIVAM</a>
+            <a href="#" className="logo">Rathan Raj</a>
             {isMenuOpen ? (
                 <FontAwesomeIcon icon={faTimes} className="menu-icon" id="menu-icon" onClick={toggleMenu} />
             ) : (

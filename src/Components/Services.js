@@ -9,10 +9,11 @@ function Services() {
             My <span>Services</span>
         </h2>
         <div className="services-container">
+
             <div className="services-box">
-                <FontAwesomeIcon icon={faCode} style={{fontSize : '3rem'}} />
-                <h3>Web Development</h3>
-                <p>I specialize in crafting stunning websites and web applications that not only look great but also perform flawlessly. With my expertise in web development technologies and best practices, I ensure that your online platform is responsive, scalable, and aligned with your brand's identity. From e-commerce sites to content management systems. I work closely with you to deliver a seamless and memorable user experience.</p>
+                <FontAwesomeIcon icon={faAndroid}  style={{fontSize : '3rem'}} />
+                <h3>App Development</h3>
+                <p>With my app development services, I turn your app ideas into reality. From concept to launch, I guide you through every step of the development process, ensuring a smooth and successful journey. Whether you need a native iOS or Android app, a cross-platform solution, or a progressive web app, I leverage the latest technologies and best practices to deliver high-quality, user-friendly.</p>
                 <a href="#" className="btn">Read More</a>
             </div>
             <div className="services-box">
@@ -22,10 +23,10 @@ function Services() {
                 <a href="#" className="btn">Read More</a>
             </div>
             <div className="services-box">
-                <FontAwesomeIcon icon={faAndroid}  style={{fontSize : '3rem'}} />
-                <h3>App Development</h3>
-                <p>With my app development services, I turn your app ideas into reality. From concept to launch, I guide you through every step of the development process, ensuring a smooth and successful journey. Whether you need a native iOS or Android app, a cross-platform solution, or a progressive web app, I leverage the latest technologies and best practices to deliver high-quality, user-friendly.</p>
-                <a href="#" className="btn">Read More</a>
+                <FontAwesomeIcon icon={faCode} style={{fontSize : '3rem'}} />
+             <h3>Web Development</h3>
+                  <p>I specialize in crafting stunning websites and web applications that not only look great but also perform flawlessly. With my expertise in web development technologies and best practices, I ensure that your online platform is responsive, scalable, and aligned with your brand's identity. From e-commerce sites to content management systems. I work closely with you to deliver a seamless and memorable user experience.</p>
+           <a href="#" className="btn">Read More</a>
             </div>
         </div>
     </section>
