@@ -21,9 +21,9 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const serviceId = 'service_av3oknq';
-        const templateId = 'template_1ur5g0s';
-        const publicKey = 'cUXLl4SScfSRMivCS';
+        const serviceId = 'service_ma60o6g';
+        const templateId = 'template_0ilg4l7';
+        const publicKey = 'C2r5VEUkCGYmOeYMO';
 
         emailjs.sendForm(serviceId, templateId, e.target, publicKey)
             .then((result) => {
